@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="piggyvest.css">
+</head>
+<body>
+
+<div class="image">
+  <img src="https://storage.googleapis.com/piggybankservice.appspot.com/statics/piggy-png_1_.png" class="logo-alt">
+</div>
+
+  <div class="border">	
+  <form>
+  	<div class="center">
+  	  <h3>Create a Secure Account</h3>
+  	  <p id="center">Welcome to the future of Savings & Investments</p>
+   </div>
+
+   <p>
+	 <label for="full name">
+	 	Full Name <br>
+	    <input id="full name" type="text" placeholder="Full Name">
+	 </label>
+   </p>
+
+   <p>
+	 <label for="Email Address">
+	 	Email Address <br>
+	    <input id="Email Address" type="text" placeholder="Email Address">
+	 </label>
+   </p>
+
+  <p>
+	<label for="Phone Number">
+	   Phone Number <br>
+	   <input id="Phone Number" type="text" placeholder="Phone Number">
+	</label>
+  </p>
+
+  <p>
+	<label for="Password">
+	   Password <br>
+	   <input id="Password" type="Password" placeholder="Password">
+	</label>
+  </p>
+
+  <p>
+	<label for="Code">
+	   Referrer Phone or Promo Code (Optional) <br>
+	   <input id="Code" type="text" placeholder="Referrer Phone or Code">
+     </label>
+  </p>
+
+  <p>
+	<label id="" for="About">
+	   How Did You Hear About Us? (Optional) <br>
+	   <select>
+ 	<option>Click To Select</option>
+ 	<option>Facebook</option>
+ 	<option>Twitter</option>
+ 	<option>Instagram</option>
+ 	<option>Click To Select</option>
+ 	<option>Friends/Family/Coworker Referral</option>
+ 	<option>Google Search</option>
+ 	<option>Google playstore</option>
+ 	<option>Online Blog</option>
+ 	<option>Local Newspaper</option>
+ 	<option>At an event</option>
+ 	<option>Other</option>
+ </select>
+
+    </label>
+ </p>
+
+ <button class="button">CREATE BUTTON</button>
+
+	</form>
+ </div>
+ <center>Already have an account?Log in</center>
+</body>
+</html>
+
+
+
+
+
+body{
+	background: #ADD8E6
+}
+.border{
+	margin-left: 40%;
+	margin-right: 40%;
+	margin-top: 5%;
+	background: #ffffff;  
+	padding-top: 2%;
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-bottom: 2%;
+	line-height: 150%;
+	border-top-left-radius: 1em;
+	border-top-right-radius: 1em;
+	border-bottom-right-radius: 1em;
+	height: 150%;
+}
+.center{
+	text-align: center;
+	line-height: 5%
+}
+.button{
+	background: #00008b;
+	border-top-left-radius: 1em;
+	border-top-right-radius: 1em;
+	border-bottom-right-radius: 1em;
+	padding-right: 50%;
+	white-space: nowrap;
+}
+.image{
+    text-align: center;
+    line-height: 2px
+}
+label input{
+	padding-right: 30%;
+	box-sizing: border-box;
+	background: lightgrey;
+}
+#center{
+	white-space: nowrap;
+	text-align: center;
+	font-size: 13px
+}
+h3{
+	color: #00008b;
